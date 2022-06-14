@@ -19,7 +19,7 @@ jobs:
     runs-on: new-runner  
     # needs: main_bucket
     strategy:
-      # fail-fast: false
+      fail-fast: false
       matrix:
         loc: [ "dir1" ] #, "dir2", "dir3", "dir4","dir5", "dir6", "dir7", "dir8", "dir9"]
     steps:
